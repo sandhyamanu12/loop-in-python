@@ -2,6 +2,8 @@
 
 **Here my sloving basic question on loop:**
 
+**while loop**
+
 1. **Basic Counting with while Loop**:
    - Write a program that counts from 1 to 10 using a while loop.
  **code:** 
@@ -124,5 +126,85 @@ print("happy new year")
 happy new year!!
 ```
 
+**For loop**
 
+1. **Multiples of 3**:
+   - Write a for loop that prints all multiples of 3 between 1 and 30.
+  
+   **code:**
+   ```python
+   for i in range(1,11):
+    print (f"{3}*{i}={3*i}")
+   ```
+   **output**
+   ```python
+3*1=3
+3*2=6
+3*3=9
+3*4=12
+3*5=15
+3*6=18
+3*7=21
+3*8=24
+3*9=27
+3*10=30
+```
+2. **Sum of First 10 Numbers**:
+   - Write a program using a for loop that calculates the sum of numbers from 1 to 10.
+**code:**
+```python
+for i in range(1, 11):
+    print(int(sum(range(1, i+1))))
+```
+**output**
+```python
+1
+3
+6
+10
+15
+21
+28
+36
+45
+55
+```
+3. **Print Your Name Letter by Letter**:
+   - Write a program that takes your name as input and prints each letter of your name using a for loop.
+**code:**
+```python
+name = input("enter your name") 
+for i in name:
+    print(i)
+```
+**output**
+```python
+enter your name manaswin
+m
+a
+n
+a
+s
+w
+i
+n
+```
+4. **Count Vowels in a String**:
+   - Write a program that counts how many vowels are in a given string using a for loop.
+
+**code:**
+```python
+string = input("Enter a string: ")
+vowels = "aeiouAEIOU"
+vowel_count = 0
+for char in string:
+    if char in vowels:
+        vowel_count += 1
+print(f"The number of vowels in the string is: {vowel_count}")
+```
+**output**
+```python
+Enter a string:  manohar
+The number of vowels in the string is: 3
+```
 
